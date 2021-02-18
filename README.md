@@ -34,5 +34,6 @@ $ npm run start:dev
      Comment 52-68 and uncomment 70-86 lines in inventory.service.ts
   5) [POST] http://localhost:3000/inventory/sell
      (It will throw Internal server error 500 as expected, because write2 throws error)
-  6) Get user information by /user. Amount decremented by one, write1 didn\'t roll back on write2 error. (BUG)
+  6) Get user information by /user. Amount decremented by one, write1 didn\'t roll back on write2 error.
+     (BUG)
 ```
